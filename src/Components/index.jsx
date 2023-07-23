@@ -18,10 +18,10 @@ function Index() {
     <>
       <S.Header>
         <S.LogoMarvelBox>
-          <img src={marvel} alt="" />
+          <img src={marvel} alt="marvel logo" />
         </S.LogoMarvelBox>
         <S.LogoSpiderBox>
-          <img src={spider} alt="" />
+          <img src={spider} alt="spiderman icon in white" />
         </S.LogoSpiderBox>
         <S.NavBar>
           <ul>
@@ -33,22 +33,22 @@ function Index() {
       </S.Header>
       <S.SideBar>
         <S.FirstSectionSideBar>
-          <img src={iuri} alt="iuri" />
+        <img src="https://img.icons8.com/color/48/spiderman-head.png" alt="spiderman-head"/>
           <S.FirstSectionNavBar>
             <a href="#">
-              <img src={instagram} alt="" />
+              <img src={instagram} alt="instagram icon" />
             </a>
             <a href="#">
-              <img src={twitter} alt="" />
+              <img src={twitter} alt="twitter icon" />
             </a>
             <a href="#">
-              <img src={facebook} alt="" />
+              <img src={facebook} alt="facebook icon" />
             </a>
           </S.FirstSectionNavBar>
         </S.FirstSectionSideBar>
         <S.SecondSectionSideBar>
-          <a href="">
-            <img src={search} alt="" />
+          <a href="#">
+            <img src={search} alt="seach icon" />
           </a>
         </S.SecondSectionSideBar>
       </S.SideBar>
@@ -62,7 +62,7 @@ function Index() {
             }}
           >
             ASSISTA AO TRAILER
-            <img src={play} alt="" />
+            <img src={play} alt="button of spiderman trailer" />
           </S.ButtonTrailer>
         </S.SectionMain>
 
@@ -73,7 +73,7 @@ function Index() {
               onClick={() => {
                 setModalVideo(!modalVideo);
               }}
-              alt=""
+              alt="spiderman icon in red"
             />
 
             <iframe

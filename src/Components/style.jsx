@@ -51,7 +51,6 @@ export const LogoMarvelBox = styled.figure`
   }
   display: flex;
   justify-content: center;
-  /* border: solid; */
   width: 14vw;
 `;
 export const LogoSpiderBox = styled.figure`
@@ -67,7 +66,6 @@ export const NavBar = styled.nav`
   ul {
       display: flex;
       justify-content: space-around;
-      /* border: solid; */
       width: 28vw;
       font-size: 20px;
     }
@@ -76,7 +74,6 @@ export const NavBar = styled.nav`
         align-items: center;
         justify-content: center;
         width: 8.5vw;
-        /* border: solid; */
         height: 10vh;
         background-repeat: no-repeat;
         background-size: 110% 110%;
@@ -91,7 +88,6 @@ export const NavBar = styled.nav`
 export const SideBar = styled.aside`
   position: absolute;
   top: 0;
-  /* border: solid; */
   width: 5vw;
   height: 116vh;
   background-color: #1d1d1d80;
@@ -110,9 +106,8 @@ export const FirstSectionSideBar = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  /* border: solid; */
   height: 55vh;
-  img[alt="iuri"] {
+  img[alt="spiderman-head"] {
     margin-top: 14px;
   }
 `;
@@ -121,7 +116,6 @@ export const FirstSectionNavBar = styled.nav`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  /* border:solid; */
   height: 32vh;
   width: 4vw;
 `;
